@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: 'ubuntu', sans-sarif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 30px;
+    color: White;
+    align-items: center;
+}
+nav ul li{
+    padding: 12px;
+}
+img{
+    width: 27px;
+    padding: 0 8px; 
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'varela Round', 'sans-serif';
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('https://wallpapercave.com/wp/wp6607204.jpg');
+}
+.bottom
+{
+    position: sticky;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    padding: 13px;
+}
+#myProgressBar{
+    width: 500px;
+    /* height: 100px; */
+    cursor: pointer;
+}
+
+.songItems{
+   height: 50px;
+   display: flex;
+   background-color: white;
+   /* width: 80%; */
+   color: black;
+   margin: 12px 0;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 34px;
+
+}
+
+.songItems img{  
+    width: 43px; 
+    margin: 0 23px;
+    /* height: 23px; */
+}
+
+.timestamp{
+    margin: 0 23px;
+    /* display: flex; */
+    padding: 0 23px;
+}
+
+.songInfo{
+    width: 80%;
+    height: 13px;
+    display: flex;
+    /* text-align: right; */
+    position: absolute;
+    left: 43vw;
+    font-family: 'varela Round', 'sans-serif';
+}
+.songInfo img{
+    width: 70px;
+    /* padding: 5px; */
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+ 
+
+
